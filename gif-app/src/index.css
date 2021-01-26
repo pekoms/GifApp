@@ -1,0 +1,19 @@
+:root{
+  
+  --body--font: 'Arial', sans-serif;
+}
+
+*{
+  font-family: var(--body--font);
+ 
+}
+
+body{
+  padding: 60px;
+}
+
+input{
+  color:grey;
+  font-size: 1.2ren;
+  width: 100%;
+}
