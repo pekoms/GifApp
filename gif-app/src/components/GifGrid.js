@@ -28,7 +28,8 @@ export default function GifGrid({category}) {
     }
    
     return (
-        <div>
+        <>
+        <div className="card-grid">
             <h3>{category}</h3>
             {
                 images.map(img=>(
@@ -36,5 +37,6 @@ export default function GifGrid({category}) {
                 ))
             }
         </div>
+        </>
     )
 }
