@@ -12,9 +12,9 @@ export default function GifGrid({category}) {
     
     return (
         <>
-        <h3>{category}</h3>
-        {loading && <p>Loading</p>}
-        <div className="card-grid">
+        <h3 className="animate__fadeInRightBig">{category}</h3>
+        {loading && <p className="animate__flash">Loading</p>}
+        <div className="card-grid animate__fadeInLeft">
             
             
             {
