@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test de GifAppTest Debe mostrar una lista de catergorias 1`] = `
+<div>
+  <h2>
+    GifApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ul>
+    <GifGrid
+      category="Pokemon"
+      key="Pokemon"
+    />
+    <GifGrid
+      category="Digimon"
+      key="Digimon"
+    />
+  </ul>
+</div>
+`;
+
+exports[`Test de GifAppTest El snapshot cuadra 1`] = `
+<div>
+  <h2>
+    GifApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ul />
+</div>
+`;
